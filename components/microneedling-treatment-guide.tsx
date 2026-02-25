@@ -19,237 +19,237 @@ interface TreatmentStep {
 const treatmentSteps: TreatmentStep[] = [
   {
     id: 1,
-    title: "Détermination des points de départ des sourcils",
+    title: "Determination of eyebrow starting points",
     duration: "1min 10s",
     image: "/images/step 1.png",
     video: "/videos/step 1.mov",
-    description: "À l'aide d'un crayon et d'une règle chirurgicale, la première étape consiste à localiser le centre exact du visage, entre les deux yeux. Une ligne verticale est tracée pour marquer ce centre. Ensuite, en utilisant la règle verticalement, des lignes parallèles sont tracées pour marquer le point de départ de chaque sourcil, généralement alignées avec l'arête du nez.",
-    benefits: ["Localisation précise", "Symétrie parfaite", "Base solide"],
+    description: "Using a pencil and a surgical ruler, the first step is to locate the exact center of the face, between the two eyes. A vertical line is drawn to mark this center. Then, using the ruler vertically, parallel lines are drawn to mark the starting point of each eyebrow, typically aligned with the bridge of the nose.",
+    benefits: ["Precise location", "Perfect symmetry", "Solid foundation"],
   },
   {
     id: 2,
-    title: "Marquage du point de fin des sourcils",
+    title: "Marking the eyebrow end point",
     duration: "25s",
     image: "/images/step 2.png",
     video: "/videos/step 2.mov",
-    description: "En utilisant la règle comme guide, une ligne diagonale est tracée à partir de la base (simulée) de la narine, en passant par le coin externe de l'œil. Le point où cette ligne croise l'arcade sourcilière détermine le point final idéal de la queue du sourcil. Cette étape est répétée de manière symétrique pour l'autre sourcil.",
-    benefits: ["Point final précis", "Longueur optimale", "Symétrie assurée"],
+    description: "Using the ruler as a guide, a diagonal line is drawn from the (simulated) base of the nostril, passing through the outer corner of the eye. The point where this line crosses the eyebrow arch determines the ideal end point of the eyebrow tail. This step is repeated symmetrically for the other eyebrow.",
+    benefits: ["Precise end point", "Optimal length", "Symmetry assured"],
   },
   {
     id: 3,
-    title: "Création de la ligne de base et identification des points clés",
+    title: "Creation of the baseline and identification of key points",
     duration: "1min 40s",
     image: "/images/step 3.png",
     video: "/videos/step 3.mov",
-    description: "Une ligne de base horizontale est tracée pour connecter les points de départ et de fin du sourcil, définissant ainsi la limite inférieure. Ensuite, des points de repère sont marqués le long de cette ligne et au-dessus de l'œil pour identifier les zones clés, notamment le début du corps du sourcil, le point le plus haut de l'arche, et la fin de la queue.",
-    benefits: ["Ligne de base définie", "Points de repère précis", "Structure claire"],
+    description: "A horizontal baseline is drawn to connect the starting and ending points of the eyebrow, thus defining the lower boundary. Then, reference points are marked along this line and above the eye to identify key areas, including the beginning of the eyebrow body, the highest point of the arch, and the end of the tail.",
+    benefits: ["Defined baseline", "Precise reference points", "Clear structure"],
   },
   {
     id: 4,
-    title: "Définition de l'épaisseur du sourcil",
+    title: "Definition of eyebrow thickness",
     duration: "10s",
     image: "/images/step 4.png",
     video: "/videos/step 4.mov",
-    description: "Des points sont marqués verticalement au-dessus des points de départ et du corps du sourcil pour établir l'épaisseur souhaitée. Cette mesure est cruciale pour s'assurer que les deux sourcils auront une épaisseur uniforme et symétrique.",
-    benefits: ["Épaisseur uniforme", "Symétrie garantie", "Proportion parfaite"],
+    description: "Points are marked vertically above the starting points and body of the eyebrow to establish the desired thickness. This measurement is crucial to ensure that both eyebrows will have uniform and symmetrical thickness.",
+    benefits: ["Uniform thickness", "Symmetry guaranteed", "Perfect proportion"],
   },
   {
     id: 5,
-    title: "Tracé de la ligne inférieure du sourcil",
+    title: "Drawing of the eyebrow lower line",
     duration: "40s",
     image: "/images/step 5.png",
     video: "/videos/step 5.mov",
-    description: "Les points de repère inférieurs, marqués lors des étapes précédentes, sont soigneusement connectés à l'aide de la règle. Cette action crée une ligne inférieure nette et définie, formant la base de la forme finale du sourcil, de la tête à la queue.",
-    benefits: ["Ligne inférieure nette", "Base définie", "Forme structurée"],
+    description: "The lower reference points, marked during previous steps, are carefully connected using the ruler. This action creates a sharp and defined lower line, forming the base of the eyebrow's final shape, from the head to the tail.",
+    benefits: ["Sharp lower line", "Defined base", "Structured shape"],
   },
   {
     id: 6,
-    title: "Tracé de la ligne supérieure du corps du sourcil",
+    title: "Drawing of the eyebrow upper body line",
     duration: "1min",
     image: "/images/step 6.png",
     video: "/videos/step 6.mov",
-    description: "En utilisant la règle, les points supérieurs de la tête du sourcil sont connectés au point le plus haut de l'arche. Cette ligne définit le bord supérieur du corps du sourcil et établit l'angle de l'arche, un élément clé pour l'expression du visage.",
-    benefits: ["Bord supérieur défini", "Angle d'arche optimal", "Expression du visage"],
+    description: "Using the ruler, the upper points of the eyebrow head are connected to the highest point of the arch. This line defines the upper edge of the eyebrow body and establishes the arch angle, a key element for facial expression.",
+    benefits: ["Defined upper edge", "Optimal arch angle", "Facial expression"],
   },
   {
     id: 7,
-    title: "Dessin de la queue du sourcil (ligne supérieure)",
+    title: "Drawing of the eyebrow tail (upper line)",
     duration: "35s",
     image: "/images/step 7.png",
     video: "/videos/step 7.mov",
-    description: "Le point le plus haut de l'arche est connecté au point de fin du sourcil qui a été marqué à l'étape 2. Cette ligne descendante complète le contour supérieur du sourcil et crée une queue effilée et élégante.",
-    benefits: ["Queue effilée", "Contour supérieur défini", "Élégance assurée"],
+    description: "The highest point of the arch is connected to the end point of the eyebrow that was marked in step 2. This descending line completes the upper contour of the eyebrow and creates a tapered and elegant tail.",
+    benefits: ["Tapered tail", "Defined upper contour", "Elegance assured"],
   },
   {
     id: 8,
-    title: "Finalisation du contour complet du sourcil",
+    title: "Finalization of the complete eyebrow contour",
     duration: "1min 5s",
     image: "/images/step 8.png",
     video: "/videos/step 8.mov",
-    description: "Toutes les lignes de guidage sont maintenant connectées pour former un contour complet et fermé pour chaque sourcil. Cette étape permet de visualiser la forme finale et de vérifier la symétrie globale avant de procéder au remplissage. Le crayon est utilisé pour renforcer et clarifier l'ensemble du contour.",
-    benefits: ["Contour complet", "Symétrie vérifiée", "Forme finale visualisée"],
+    description: "All guide lines are now connected to form a complete and closed contour for each eyebrow. This step allows visualization of the final shape and verification of overall symmetry before proceeding to filling. The pencil is used to reinforce and clarify the entire contour.",
+    benefits: ["Complete contour", "Symmetry verified", "Final shape visualized"],
   },
   {
     id: 9,
-    title: "Raffinement des lignes et des angles",
+    title: "Refinement of lines and angles",
     duration: "45s",
     image: "/images/step 9.png",
     video: "/videos/step 9.mov",
-    description: "Cette étape consiste à revoir et à perfectionner la forme tracée. La règle est utilisée pour vérifier les angles et la rectitude des lignes, en particulier celles de la queue et de la base du sourcil. De petits ajustements sont faits pour garantir une forme impeccable et précise.",
-    benefits: ["Lignes parfaites", "Angles précis", "Forme impeccable"],
+    description: "This step involves reviewing and perfecting the traced shape. The ruler is used to check the angles and straightness of the lines, particularly those of the tail and base of the eyebrow. Small adjustments are made to ensure an impeccable and precise shape.",
+    benefits: ["Perfect lines", "Precise angles", "Impeccable shape"],
   },
   {
     id: 10,
-    title: "Remplissage de la forme pour visualisation",
+    title: "Filling of the shape for visualization",
     duration: "1min 5s",
     image: "/images/step 10.png",
     video: "/videos/step 10.mov",
-    description: "Le contour du sourcil est entièrement rempli avec le crayon. Cette technique permet de simuler l'apparence du sourcil une fois le microblading terminé. Cela offre une visualisation claire de la forme, du poids et de l'équilibre du sourcil par rapport à l'œil et aux autres traits du visage.",
-    benefits: ["Visualisation claire", "Simulation réaliste", "Équilibre évalué"],
+    description: "The eyebrow contour is completely filled with the pencil. This technique simulates the appearance of the eyebrow once microblading is completed. It provides a clear visualization of the shape, weight, and balance of the eyebrow relative to the eye and other facial features.",
+    benefits: ["Clear visualization", "Realistic simulation", "Balance evaluated"],
   },
   {
     id: 11,
-    title: "Remplissage du second sourcil pour la symétrie",
+    title: "Filling of the second eyebrow for symmetry",
     duration: "45s",
     image: "/images/step 11.png",
     video: "/videos/step 11.mov",
-    description: "En utilisant le même crayon, le contour du deuxième sourcil est entièrement rempli. Cette étape est essentielle pour la vérification visuelle. Avoir les deux sourcils entièrement ombrés permet à l'artiste de comparer leur forme, leur taille et leur équilibre global, et d'apporter les corrections finales avant de passer à l'étape de pigmentation.",
-    benefits: ["Symétrie vérifiée", "Comparaison visuelle", "Corrections possibles"],
+    description: "Using the same pencil, the contour of the second eyebrow is completely filled. This step is essential for visual verification. Having both eyebrows fully shaded allows the artist to compare their shape, size, and overall balance, and make final corrections before moving to the pigmentation step.",
+    benefits: ["Symmetry verified", "Visual comparison", "Possible corrections"],
   },
   {
     id: 12,
-    title: "Nettoyage des contours pour une définition nette",
+    title: "Cleaning of contours for sharp definition",
     duration: "1min 20s",
     image: "/images/step 12.png",
     video: "/videos/step 12.mov",
-    description: "Avec une lingette propre et des cotons-tiges, l'excès de crayon et les lignes de guidage autour des sourcils dessinés sont soigneusement effacés. Cette étape de nettoyage est cruciale car elle révèle la forme finale et précise des sourcils. Cela permet une dernière évaluation de la symétrie sans aucune distraction visuelle.",
-    benefits: ["Forme finale révélée", "Nettoyage précis", "Évaluation claire"],
+    description: "With a clean wipe and cotton swabs, excess pencil and guide lines around the drawn eyebrows are carefully erased. This cleaning step is crucial as it reveals the final and precise shape of the eyebrows. It allows a final evaluation of symmetry without any visual distraction.",
+    benefits: ["Final shape revealed", "Precise cleaning", "Clear evaluation"],
   },
   {
     id: 13,
-    title: "Vérification de la forme tracée",
+    title: "Verification of the traced shape",
     duration: "10s",
     image: "/images/step 13.png",
     video: "/videos/step 13.mov",
-    description: "Un bâtonnet en bois est utilisé pour gratter doucement le crayon à l'intérieur de la forme. Cette technique permet de vérifier la netteté des lignes de contour directement sur la peau en silicone et de s'assurer que la forme est bien définie avant le nettoyage final.",
-    benefits: ["Netteté vérifiée", "Forme définie", "Contour précis"],
+    description: "A wooden stick is used to gently scratch the pencil inside the shape. This technique allows verification of the sharpness of contour lines directly on the silicone skin and ensures the shape is well defined before final cleaning.",
+    benefits: ["Sharpness verified", "Defined shape", "Precise contour"],
   },
   {
     id: 14,
-    title: "Nettoyage de la zone de travail interne",
+    title: "Cleaning of the internal work area",
     duration: "55s",
     image: "/images/step 14.png",
     video: "/videos/step 14.mov",
-    description: "À l'aide d'un coton-tige, le remplissage au crayon à l'intérieur du contour du sourcil est délicatement retiré. L'objectif est de ne laisser que le contour extérieur. Ce contour servira de guide précis pour le placement des traits de microblading, assurant que chaque trait reste dans les limites de la forme convenue.",
-    benefits: ["Contour net", "Guide précis", "Placement optimal"],
+    description: "Using a cotton swab, the pencil filling inside the eyebrow contour is gently removed. The goal is to leave only the outer contour. This contour will serve as a precise guide for microblading stroke placement, ensuring each stroke stays within the boundaries of the agreed shape.",
+    benefits: ["Clean contour", "Precise guide", "Optimal placement"],
   },
   {
     id: 15,
-    title: "Préparation du pigment",
+    title: "Pigment preparation",
     duration: "15s",
     image: "/images/step 15.png",
     video: "/videos/step 15.mov",
-    description: "L'artiste utilise un outil pour prélever une petite quantité de pigment de microblading et la déposer dans une bague à pigment stérile. Le port de la bague à pigment au doigt permet un accès rapide et efficace au pigment pendant la procédure, optimisant ainsi le flux de travail.",
-    benefits: ["Accès rapide", "Flux optimisé", "Stérilité assurée"],
+    description: "The artist uses a tool to take a small amount of microblading pigment and deposit it into a sterile pigment ring. Wearing the pigment ring on the finger allows quick and efficient access to the pigment during the procedure, thus optimizing workflow.",
+    benefits: ["Quick access", "Optimized workflow", "Sterility assured"],
   },
   {
     id: 16,
-    title: "Assemblage de l'outil de microblading",
+    title: "Assembly of the microblading tool",
     duration: "30s",
     image: "/images/step 16.png",
     video: "/videos/step 16.mov",
-    description: "Une lame de microblading stérile et à usage unique est retirée de son emballage protecteur. Elle est ensuite insérée avec précaution dans le porte-lame du stylet manuel. Le respect des normes d'hygiène lors de cette étape est fondamental pour garantir la sécurité.",
-    benefits: ["Hygiène respectée", "Sécurité garantie", "Outil prêt"],
+    description: "A sterile, single-use microblading blade is removed from its protective packaging. It is then carefully inserted into the blade holder of the manual stylus. Adherence to hygiene standards during this step is fundamental to ensure safety.",
+    benefits: ["Hygiene respected", "Safety guaranteed", "Tool ready"],
   },
   {
     id: 17,
-    title: "Sécurisation de la lame dans le stylet",
+    title: "Securing the blade in the stylus",
     duration: "15s",
     image: "/images/step 17.png",
     video: "/videos/step 17.mov",
-    description: "Le mécanisme de serrage du stylet de microblading est fermement vissé pour fixer la lame en place. Il est impératif de s'assurer que la lame est stable et ne bouge pas. Une lame bien fixée est essentielle pour garantir la sécurité, le contrôle et la précision des traits.",
-    benefits: ["Lame stable", "Contrôle optimal", "Précision assurée"],
+    description: "The tightening mechanism of the microblading stylus is firmly screwed to secure the blade in place. It is imperative to ensure the blade is stable and does not move. A well-secured blade is essential to guarantee safety, control, and stroke precision.",
+    benefits: ["Stable blade", "Optimal control", "Precision assured"],
   },
   {
     id: 18,
-    title: "Création des premiers poils à la tête du sourcil",
+    title: "Creation of the first hairs at the eyebrow head",
     duration: "1min 45s",
     image: "/images/step 18.png",
     video: "/videos/step 18.mov",
-    description: "Après avoir trempé la lame dans le pigment, l'artiste commence le travail pratique en effectuant les premiers traits de poil à la tête du sourcil. Les incisions sont réalisées avec soin à l'intérieur du contour, en suivant un schéma qui imite la direction naturelle de la pousse des poils dans cette zone.",
-    benefits: ["Premières incisions", "Direction naturelle", "Technique précise"],
+    description: "After dipping the blade in the pigment, the artist begins practical work by creating the first hair strokes at the eyebrow head. The incisions are made carefully inside the contour, following a pattern that mimics the natural direction of hair growth in this area.",
+    benefits: ["First incisions", "Natural direction", "Precise technique"],
   },
   {
     id: 19,
-    title: "Création des poils du corps et de la ligne de transition (Spine)",
+    title: "Creation of body hairs and the transition line (Spine)",
     duration: "1min 40s",
     image: "/images/step 19.png",
     video: "/videos/step 19.mov",
-    description: "L'artiste continue à implanter des traits de poil en progressant le long du corps du sourcil vers l'arche. La technique se concentre sur la création de la 'spine', la zone où les traits supérieurs et inférieurs se rejoignent. Les traits sont dessinés avec une légère courbure pour un rendu hyperréaliste.",
-    benefits: ["Spine créée", "Rendu hyperréaliste", "Courbure naturelle"],
+    description: "The artist continues to implant hair strokes while progressing along the eyebrow body toward the arch. The technique focuses on creating the 'spine', the area where upper and lower strokes meet. The strokes are drawn with a slight curvature for a hyper-realistic result.",
+    benefits: ["Spine created", "Hyper-realistic result", "Natural curvature"],
   },
   {
     id: 20,
-    title: "Finalisation des traits et transition vers le second sourcil",
+    title: "Finalization of strokes and transition to the second eyebrow",
     duration: "20s",
     image: "/images/step 20.png",
     video: "/videos/step 20.mov",
-    description: "Les derniers traits sont ajoutés pour compléter le motif sur le premier sourcil. L'artiste enchaîne ensuite en commençant les premiers traits sur le second sourcil. Cette transition rapide aide à maintenir la cohérence du geste et de la pression, favorisant ainsi un résultat final symétrique.",
-    benefits: ["Motif complet", "Transition fluide", "Symétrie maintenue"],
+    description: "The last strokes are added to complete the pattern on the first eyebrow. The artist then moves on to starting the first strokes on the second eyebrow. This rapid transition helps maintain consistency in gesture and pressure, thus promoting a symmetrical final result.",
+    benefits: ["Complete pattern", "Smooth transition", "Symmetry maintained"],
   },
   {
     id: 21,
-    title: "Révélation des traits du second sourcil",
+    title: "Revealing the strokes of the second eyebrow",
     duration: "20s",
     image: "/images/step 21.png",
     video: "/videos/step 21.mov",
-    description: "Après la première passe de traits et l'application du pigment, l'excédent est nettoyé du second sourcil (celui du bas sur le mannequin). Cette action révèle les traits fondamentaux, permettant une comparaison directe de la symétrie, de la profondeur et du motif avec le premier sourcil déjà nettoyé.",
-    benefits: ["Traits révélés", "Comparaison directe", "Symétrie évaluée"],
+    description: "After the first pass of strokes and pigment application, the excess is cleaned from the second eyebrow (the lower one on the mannequin). This action reveals the fundamental strokes, allowing direct comparison of symmetry, depth, and pattern with the first eyebrow already cleaned.",
+    benefits: ["Strokes revealed", "Direct comparison", "Symmetry evaluated"],
   },
   {
     id: 22,
-    title: "Nettoyage final de la première passe",
+    title: "Final cleaning of the first pass",
     duration: "15s",
     image: "/images/step 22.png",
     video: "/videos/step 22.mov",
-    description: "L'artiste procède à un nettoyage final et approfondi des deux sourcils et de la zone environnante. Le but est d'éliminer tout résidu de pigment de la surface, garantissant que les traits sont nets et parfaitement visibles pour l'évaluation avant d'entamer la deuxième passe.",
-    benefits: ["Nettoyage approfondi", "Traits nets", "Évaluation claire"],
+    description: "The artist proceeds with a final and thorough cleaning of both eyebrows and the surrounding area. The goal is to eliminate any pigment residue from the surface, ensuring that the strokes are sharp and perfectly visible for evaluation before starting the second pass.",
+    benefits: ["Thorough cleaning", "Sharp strokes", "Clear evaluation"],
   },
   {
     id: 23,
-    title: "Ajout de densité sur le second sourcil (Deuxième Passe)",
+    title: "Adding density to the second eyebrow (Second Pass)",
     duration: "1min 20s",
     image: "/images/step 23.png",
     video: "/videos/step 23.mov",
-    description: "La deuxième passe commence, en se concentrant sur le sourcil du bas. L'artiste ajoute des traits plus fins et supplémentaires entre les traits initiaux. Cette étape est essentielle pour construire la densité, créer un effet de volume et de dimension, et perfectionner la plénitude générale de la forme du sourcil.",
-    benefits: ["Densité augmentée", "Volume créé", "Plénitude parfaite"],
+    description: "The second pass begins, focusing on the lower eyebrow. The artist adds finer and additional strokes between the initial strokes. This step is essential to build density, create a volume and dimension effect, and perfect the overall fullness of the eyebrow shape.",
+    benefits: ["Increased density", "Volume created", "Perfect fullness"],
   },
   {
     id: 24,
-    title: "Ajout de densité sur le premier sourcil (Deuxième Passe)",
+    title: "Adding density to the first eyebrow (Second Pass)",
     duration: "15s",
     image: "/images/step 24.png",
     video: "/videos/step 24.mov",
-    description: "Pour garantir une symétrie parfaite, l'artiste effectue maintenant la deuxième passe sur le sourcil du haut. L'objectif est de reproduire la même densité et le même motif de traits que sur le sourcil du bas, assurant que les deux sourcils ont une apparence finale cohérente et équilibrée.",
-    benefits: ["Symétrie parfaite", "Densité uniforme", "Cohérence assurée"],
+    description: "To guarantee perfect symmetry, the artist now performs the second pass on the upper eyebrow. The objective is to reproduce the same density and stroke pattern as on the lower eyebrow, ensuring that both eyebrows have a consistent and balanced final appearance.",
+    benefits: ["Perfect symmetry", "Uniform density", "Consistency assured"],
   },
   {
     id: 25,
-    title: "Visualisation du sourcil supérieur completé",
+    title: "Visualization of the completed upper eyebrow",
     duration: "10s",
     image: "/images/step 25.png",
     video: "/videos/step 25.mov",
-    description: "Cette vue montre le sourcil supérieur immédiatement après la fin de la deuxième passe. La densité ajoutée est maintenant clairement visible, et son apparence correspond à celle du sourcil inférieur déjà terminé, confirmant l'obtention d'un résultat harmonieux.",
-    benefits: ["Densité visible", "Correspondance parfaite", "Résultat harmonieux"],
+    description: "This view shows the upper eyebrow immediately after finishing the second pass. The added density is now clearly visible, and its appearance matches that of the already completed lower eyebrow, confirming the achievement of a harmonious result.",
+    benefits: ["Visible density", "Perfect match", "Harmonious result"],
   },
   {
     id: 26,
-    title: "Inspection finale du travail completé",
+    title: "Final inspection of completed work",
     duration: "5s",
     image: "/images/step 26.png",
     video: "/videos/step 26.mov",
-    description: "Une vue d'ensemble finale du mannequin de pratique présente les deux sourcils completés, côte à côte. C'est l'aboutissement de l'exercice, permettant une évaluation finale de la symétrie, de la forme, de la qualité des traits et du résultat esthétique global.",
-    benefits: ["Vue d'ensemble", "Évaluation finale", "Résultat esthétique"],
+    description: "A final overview of the practice mannequin presents the two completed eyebrows side by side. This is the culmination of the exercise, allowing a final evaluation of symmetry, shape, stroke quality, and overall aesthetic result.",
+    benefits: ["Overall view", "Final evaluation", "Aesthetic result"],
   },
 ]
 
@@ -418,16 +418,16 @@ export default function MicroneedlingTreatmentGuide() {
         transition={{ duration: 0.6, delay: 0.4 }}
         className="text-center"
       >
-        <h2 className="text-3xl md:text-4xl font-bold font-saeada text-blue-900 mb-3">Félicitations !</h2>
+        <h2 className="text-3xl md:text-4xl font-bold font-saeada text-blue-900 mb-3">Congratulations!</h2>
         <p className="text-lg md:text-xl font-quicksand text-blue-800 mb-2">
-          Entraînez-vous! terminée avec succès
+          Practice completed successfully!
         </p>
-        <p className="text-base font-quicksand text-blue-700 mb-4">Toutes les étapes ont été complétées</p>
+        <p className="text-base font-quicksand text-blue-700 mb-4">All steps have been completed</p>
 
         <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 mx-4">
-          <p className="text-sm font-quicksand text-gray-600 mb-1">Formation réalisée avec</p>
+          <p className="text-sm font-quicksand text-gray-600 mb-1">Training carried out with</p>
           <h3 className="text-xl font-bold font-saeada text-brand-gradient">Guide Professionnel Microblading</h3>
-          <p className="text-xs font-quicksand text-gray-500 mt-1">Méthode certifiée • Mannequin silicone</p>
+          <p className="text-xs font-quicksand text-gray-500 mt-1">Certified method • Silicone mannequin</p>
         </div>
       </motion.div>
 
@@ -438,16 +438,16 @@ export default function MicroneedlingTreatmentGuide() {
         className="flex gap-2 md:gap-3 mt-6 flex-wrap justify-center"
       >
         <div className="bg-green-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold">
-          26/26 Étapes
+          26/26 Steps
         </div>
         <div className="bg-blue-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold">
           45 Minutes
         </div>
         <div className="bg-purple-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold">
-          Certifié
+          Certified
         </div>
         <div className="bg-pink-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold">
-          Professionnel
+          Professional
         </div>
       </motion.div>
 
@@ -511,16 +511,16 @@ export default function MicroneedlingTreatmentGuide() {
           <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-0">
             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
               <h1 className="text-xl sm:text-2xl font-bold font-saeada text-gray-800">
-                Entraînez-vous!
+                Practice!
               </h1>
               <div className="flex flex-wrap gap-2 text-sm font-quicksand text-gray-600">
-                <span>Entraînement sur mannequin silicone</span>
+                <span>Training on silicone mannequin</span>
                 <span className="hidden sm:inline">•</span>
-                <span>26 étapes essentielles</span>
+                <span>26 essential steps</span>
                 <span className="hidden sm:inline">•</span>
-                <span>Avant pratique clientèle</span>
+                <span>Before client practice</span>
                 <span className="hidden sm:inline">•</span>
-                <span>Matériel requis</span>
+                <span>Required equipment</span>
               </div>
             </div>
             <div className="flex items-center gap-3 sm:gap-4">
@@ -647,10 +647,10 @@ export default function MicroneedlingTreatmentGuide() {
                 </div>
                 <div className="ml-3">
                   <p className="text-sm font-medium text-amber-800">
-                    <strong>Mannequin silicone requis</strong> - À acheter séparément
+                    <strong>Silicone mannequin required</strong> - To be purchased separately
                   </p>
                   <p className="text-xs text-amber-700 mt-1">
-                    Cette formation nécessite un mannequin silicone pour la pratique avant de travailler sur de vrais clients.
+                    This training requires a silicone mannequin for practice before working on real clients.
                   </p>
                 </div>
               </div>
@@ -745,7 +745,7 @@ export default function MicroneedlingTreatmentGuide() {
                       />
                     ) : (
                       <div className="w-full h-full flex items-center justify-center text-gray-400">
-                        <span>Vidéo non disponible</span>
+                        <span>Video not available</span>
                       </div>
                     )}
 
