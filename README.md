@@ -7,7 +7,7 @@
 
 ## Screenshot
 
-![djhgfdsdf](https://github.com/youssefbarj/djhgfdsdf/raw/main/screenshot.png)
+![djhgfdsdf](https://raw.githubusercontent.com/youssefbarj/djhgfdsdf/main/screenshot.png)
 
 ## What this slide does
 
